@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+.nav-link.active {
+  color: rgb(159, 70, 255) !important;  /* Bootstrap primary color or your custom one */
+  border-radius: 0.25rem;
+}
+
+.HeroSection * {
+  background-color: #f5fcff;
+  
+}
+.HeroSection{
+  width: 100%;
+}
+
+.Navbar *{
+  background-color: white;
+}
+
+.skillsList, .skillsList>*{
+  background-color: white;
+}
+
+
+
+.skillsList:hover{
+  border-bottom: rgb(159, 70, 255) 3px solid;
+}
+
+
+
+.myPortfolio * {
+  background-color: white;
+}
+
+.formContainer {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border-radius: 20px;
+  padding: 30px;
+  transition: all 0.2s ease-in;
+  background-color: white;
+  width: 500px;
+}
+
+.formElement{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.formElement input, textarea{
+  padding: 8px;
+  border-radius: 10px;
+  border: 2px solid grey;
+  resize: none;
+}
+
+.formButton {
+  width: 100px;
+  padding: 10px;
+  margin-left: auto;
+  border-radius: 10px;
+  font-weight: 600;
+  border: 2px solid grey;
+  transition: all 0.2s ease-in;
+}
+
+.formButton:hover {
+  cursor: pointer;
+  
+
+}
+
+.contactMe *{
+  background-color: white;
+  
+}
+
+.contactMe{
+  padding-top: 40px;
+  margin-top:50px;
+}
+
+
+
+
+.proj,.proj *{
+  background-color: white;
+}
+
+.proj:hover{
+  border-bottom: rgb(159, 70, 255) 3px solid;
+}
