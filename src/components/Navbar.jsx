@@ -7,8 +7,8 @@ import { Link } from 'react-scroll'
 function Navbar() {
 
   return (
-    <div className='Navbar'>
-         <nav className={`navbar navbar-right navbar-expand-lg navbar-light shadow-sm px-6 mx-1 py-3 `}>
+    <div className='Navbar sticky-top'>
+         <nav className={`navbar navbar-right navbar-expand-lg navbar-light shadow-sm px-6 mx-1 py-3 sticky`}>
       <div className="container-fluid">
         <a className="navbar-brand fw-bold text-uppercase" href="/">M . A . K</a>
         <button className="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +47,7 @@ function Navbar() {
         
         </div>
 
-        <Link to="contactMe"><button className="btn btn-outline-secondary btn-lg px-4 py-2 d-none d-lg-inline-block" style={{ color: 'rgb(159, 70, 255)',border: '1px solid rgb(159, 70, 255)' }}><span className='small'><small>Contact Me</small></span></button></Link>
+        <Link to="contactMe"><button className="contactme btn btn-light d-none d-lg-inline-block" style={{ color: 'rgb(159, 70, 255)',border: '1px solid rgb(159, 70, 255)' }}>Contact Me</button></Link>
        
 
         </div>

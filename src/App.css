@@ -1,6 +1,7 @@
 * {
   margin: 0;
   background-color: whitesmoke;
+
 }
 
 .nav-link.active {
@@ -9,15 +10,22 @@
 }
 
 .HeroSection * {
-  background-color: #f5fcff;
+  background-color: #FFFFF7;
   
 }
 .HeroSection{
   width: 100%;
 }
 
-.Navbar *{
-  background-color: white;
+
+
+.Navbar{
+  width: 100%;
+  
+}
+
+.contactme:hover{
+    background-color: white;
 }
 
 .skillsList, .skillsList>*{

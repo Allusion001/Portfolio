@@ -9,11 +9,9 @@ function HeroSection() {
           <div className='row ' >
               <div className='col-md-7 order-2 order-md-1 d-flex flex-column justify-content-center mb-3 p-3 '>
                   <h5 >MUHAMMAD ALI KHAN</h5>
-                  <h1 style={{fontSize:'70px',fontFamily:'"Roboto", sans-serif'}}>Full Stack Developer /
-                  <br/> Software Engineer
+                  <h1 style={{fontSize:'70px',fontFamily:'"Roboto", sans-serif'}}>Software Engineer
                   </h1>
-                  <p>Seeking to work in an esteemed organisation as a developer where I can further shine my skills & knowledge, which challenges me
-  intellectually while utilising my previous technical and creative educational skills.    </p>
+                  <p>Software Engineer driven to craft smart, efficient solutions. Seeking opportunities to grow in a forward-thinking organization while applying and expanding my technical and creative skills.    </p>
               </div>
               <div className='col-md-5 order-1 order-md-2 d-flex flex-column justify-content-center align-items-center'>
                   <img src={myImage} className='img-fluid rounded-circle' style={{height:'auto',maxWidth: '50%' }}/>
